@@ -1,0 +1,106 @@
+.navbar-expand-lg{
+    align-items: center; /* Centra verticalmente menú */
+}
+.imagen{
+    max-width: 400px;  /* Limita ancho de imágenes */
+    max-height: 400px; /* Limita alto de imágenes */
+}
+.row{
+    margin: 50px; /* Márgenes de separación de secciones */
+}
+.btn-btn-primary{
+    color: #FF5D5D; /* Color principal botones */
+}
+.nav-item{
+    margin-left:275px; /* Separación lateral de items del menú */
+}
+.carousel-inner{
+    max-height: 400px; /* Limita altura del carrusel */
+}
+.container-fluid{
+    background-color: #D9D9D9; /* Fondo gris claro */
+    border-radius: 30px; /* Bordes redondeados */
+}
+.form{
+    border-color: #D9D9D9; /* Bordes del formulario */
+    border-radius: 15px;    /* Bordes redondeados */
+    margin: 20px;           /* Margen interno */
+}
+
+.accesibilidad-section {
+    background-color: #EFEFEF; /* Fondo sección secundaria */
+    border-radius: 30px;        /* Bordes redondeados */
+    padding: 50px 20px;         /* Espaciado interno */
+    margin: 50px;               /* Margen externo */
+}
+
+.titulo-accesibilidad {
+    color: #FF5D5D; /* Color título */
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2); /* Sombra ligera */
+}
+
+.imagen-accesibilidad {
+    max-width: 380px; /* Limita ancho imagen */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15); /* Sombra */
+}
+
+.lista-accesibilidad li {
+    margin-bottom: 8px; /* Separación entre ítems */
+    font-size: 17px;    /* Tamaño de fuente */
+    padding-left: 5px;  /* Espacio interno */
+}
+
+.btn-accesibilidad {
+    background-color: #FF5D5D; /* Fondo botón */
+    color: white;              /* Texto blanco */
+    padding: 10px 20px;        /* Espaciado interno */
+    border-radius: 12px;       /* Bordes redondeados */
+    text-decoration: none;     
+    transition: 0.3s;          /* Transición suave */
+}
+.btn-accesibilidad:hover {
+    background-color: #d94e4e; /* Cambio color hover */
+    color: white;              
+}
+
+.tarjetas-accesibilidad .tarjeta {
+    background-color: white;  /* Fondo tarjeta */
+    border-radius: 18px;      /* Bordes redondeados */
+    padding: 20px;            
+    transition: 0.3s;         /* Transición hover */
+}
+
+.tarjetas-accesibilidad .tarjeta:hover {
+    transform: translateY(-5px); /* Efecto elevación */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15); /* Sombra hover */
+}
+
+body {
+    font-family: "Helvetica", "Arial", sans-serif !important; /* Tipografía general */
+}
+/* Sección niveles de accesibilidad */
+.niveles-accesibilidad {
+    background-color: #EFEFEF;
+    border-radius: 30px;
+    padding: 40px 20px;
+    margin: 50px;
+}
+
+.niveles-accesibilidad h2 {
+    color: #FF5D5D;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.niveles-accesibilidad p {
+    font-size: 17px;
+}
+
+.niveles-accesibilidad ul {
+    margin-top: 15px;
+}
+
+.niveles-accesibilidad li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
